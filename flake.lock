@@ -1,0 +1,43 @@
+{
+  "nodes": {
+    "aframe-searxr": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1630508605,
+        "narHash": "sha256-pDCEb2bfz4dILMf2cSrDEaWeC8/SWsM90K7OsXS16xk=",
+        "owner": "SearXR",
+        "repo": "aframe-searxr",
+        "rev": "58feaf85b163895d33967cbbbfd804a36a75f8b2",
+        "type": "gitlab"
+      },
+      "original": {
+        "owner": "SearXR",
+        "repo": "aframe-searxr",
+        "type": "gitlab"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1632593756,
+        "narHash": "sha256-ZLWYL72kaaDj1ke4uyVBIDFh5KKHtnc7JNsZsVVXxUc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a11b2cdb2a972fcc4204ca3d32414ddc9c888956",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "aframe-searxr": "aframe-searxr",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
